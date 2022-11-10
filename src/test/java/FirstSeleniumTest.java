@@ -23,7 +23,7 @@ public class FirstSeleniumTest {
 
         System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
         WebDriver browser = new ChromeDriver();
-        browser = new ChromeDriver();
+
         browser.manage().window().maximize();
         browser.get("http://www.discovercars.com/");
 
