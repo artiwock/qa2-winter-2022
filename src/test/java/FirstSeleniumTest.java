@@ -7,13 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-        import java.time.Duration;
-        import java.util.List;
+import java.time.Duration;
+import java.util.List;
 
 public class FirstSeleniumTest {
     private final By ACCEPT_COOKIES_BTN = By.id("onetrust-accept-btn-handler");
     private final By TOP_LOCATION_LINK = By.xpath(".//div[@class = 'tl-box']/a");
-
     private WebDriver browser;
     private WebDriverWait wait;
 
